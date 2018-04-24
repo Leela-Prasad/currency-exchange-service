@@ -60,6 +60,11 @@ public class CurrencyExchangeBean {
 	public void setPort(int port) {
 		this.port = port;
 	}
-	
+
+	@Override
+	public String toString() {
+		return "CurrencyExchangeBean [id=" + id + ", from=" + from + ", to=" + to + ", conversionMultiple="
+				+ conversionMultiple + ", port=" + port + "]";
+	}
 	
 }
